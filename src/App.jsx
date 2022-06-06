@@ -1,7 +1,7 @@
 import React from "react";
-import { Navigate, Route, BrowserRoute as Router, Routes } from "react-router-dom";
-import LandingPage from "./pages/LandingPage";
-import './styles/main.scss';
+import { Navigate, Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import LandingPage from "./pages/LandingPage/LandingPage";
+import './styles/_main.scss';
 
 function App() {
   return (
